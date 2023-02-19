@@ -1,0 +1,17 @@
+#! /bin/bash
+
+read x
+read y
+if [ $x -gt $y ]
+then
+echo ''$x $y den büyüktür.''
+elif [ $x -lt $y ]
+then
+echo ''$x $y den küçüktür''
+elif [ $x -eq $y ]
+then
+echo ''$x $y ye eşittir.''
+else
+echo ''hatalı giriş''
+fi
+

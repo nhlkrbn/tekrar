@@ -1,0 +1,10 @@
+#! /bin/bash
+
+OS=('Linux','Windows','Unix')
+echo ${OS[@]}
+echo ${OS[2]}
+OS[3]='Mac'
+echo ${OS[@]}
+unset OS[1]
+
+echo ${OS[@]}

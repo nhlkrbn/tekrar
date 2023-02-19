@@ -1,0 +1,14 @@
+#! /bin/bash
+
+sayi=25
+if [ $sayi -eq 10 ]
+then
+echo ''sayı ona eşittir''
+elif [ $sayi -ge 10 ]
+then
+echo ''sayı ondan büyüktür.''
+elif [ $sayi -le 10 ]
+then
+echo ''sayı ondan küçüktür.''
+fi
+

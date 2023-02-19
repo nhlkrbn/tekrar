@@ -1,0 +1,8 @@
+#! /bin/bash
+
+read -p 'isminiz:' isim
+read -sp 'sifreniz:' sifre
+echo
+echo ''ismim $isim''
+echo ''sifrem : $sifre''
+

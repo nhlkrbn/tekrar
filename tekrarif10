@@ -1,0 +1,13 @@
+#! /bin/bash
+
+if [ $# -lt 1 ]
+then
+echo ''bir sayı giriniz''
+
+elif [ $1 -ge 18 ]
+then
+echo ''you may go to the party''
+else
+echo ''partiye gidemezsin ''
+fi
+

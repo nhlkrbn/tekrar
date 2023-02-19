@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo ''isimleri giriniz''
+read -a isimler
+
+kisisayisi=${#isimler[@]}
+echo $kisisayisi
+
+echo ${isimler[2]},${isimler[1]}
+echo ${isimler[*]}
+

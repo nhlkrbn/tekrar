@@ -1,0 +1,14 @@
+#! /bin/bash
+
+arac=$1
+case $arac in
+''otomobil'' )
+echo ''$arac 200 tlye kiralanır.'' ;;
+''motorsiklet'' )
+echo ''$arac 100 tlye kiralanır.'' ;;
+''bisiklet'' )
+echo ''$arac 50 tlye kiralanır.'' ;;
+*)
+echo '' $arac kiralık değildir'' ;;
+esac
+

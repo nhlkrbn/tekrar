@@ -1,0 +1,12 @@
+#! /bin/bash
+harf=k
+if [ $harf == ''a'' ]
+then
+echo ''harf a dır''
+elif [ $harf == ''b'' ]
+then
+echo ''harf b dir''
+else
+echo ''harf a veya b değildir''
+fi
+

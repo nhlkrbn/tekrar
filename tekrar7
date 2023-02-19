@@ -1,0 +1,26 @@
+#! /bin/bash
+
+echo -e ''dosyanın ismini giriniz:\c ''
+read dosyaismi
+
+if [ -e $dosyaismi ]
+
+then
+echo ''$dosyaismi mevcut''
+if [ -s $dosyaismi ]
+then
+echo '' dosyanın içeriği dolu''
+if [ -d $dosyaismi ]
+then
+echo '' bu bir klasördür''
+else
+echo ''bu bir klasor değildir.''
+fi
+else
+echo ''dosyanın içreiği bos''
+fi
+
+else
+echo ''$dosyaismi bulunamadı''
+fi
+

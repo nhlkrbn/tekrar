@@ -1,0 +1,7 @@
+#! /bin/bash
+
+ad=nihal
+echo $ad
+sayi=10
+echo $sayi
+

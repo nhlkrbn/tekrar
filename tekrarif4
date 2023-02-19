@@ -1,0 +1,11 @@
+#! /bin/bash
+
+harf=k
+
+if [[ $harf < ''b'' ]]
+then
+echo ''koşul doğru''
+else
+echo ''koşul yanlış''
+fi
+

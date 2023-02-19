@@ -1,0 +1,26 @@
+#! /bin/bash
+
+echo -n ''enter the first number''
+read var1
+echo -n ''enter the second number''
+read var2
+echo -n ''enter the third number''
+read var3
+
+if [ $var1 -ge $var2 ]
+then
+if [ $var1 -ge $var3 ]
+then
+echo '' $var1 en büyük sayıdır''
+else
+echo ''$var3 en büyük sayıdır''
+fi
+else
+if [ $var2 -ge $var3 ]
+then
+echo ''$var2 en büyük sayıdır''
+else 
+echo ''$var3 en büyük sayıdır''
+fi
+fi
+

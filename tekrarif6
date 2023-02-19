@@ -1,0 +1,12 @@
+#! /bin/bash
+
+read -p ''adınız:'' ad
+read -sp ''şifreniz:'' sifre
+echo
+if [ $ad == ''yusuf'' -a $sifre == ''sezer'' ]
+then
+echo ''başarı ile giriş yaptınız''
+else
+echo ''hatalı giriş''
+fi
+

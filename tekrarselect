@@ -1,0 +1,15 @@
+#! /bin/bash
+
+select iller in ankara istanbul izmir
+do
+case $iller in
+ankara)
+echo ''ankara seçildi'' ;;
+istanbul)
+echo ''istanbul seçildi'' ;;
+izmir)
+echo ''izmir seçildi'' ;;
+*)
+echo ''hatalı seçim'' ;;
+esac
+done

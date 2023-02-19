@@ -1,0 +1,15 @@
+#! /bin/bash
+
+echo -e ''bir karakter giriniz:''
+read deger
+case $deger in
+[a-z])
+echo ''kullanıcı $deger harf girişi yaptı'' ;;
+[0-9])
+echo ''kullanıcı $deger rakam girişi yaptı'' ;;
+?)
+echo ''kullanıcı $deger özel karakter girişi yaptı'' ;;
+*)
+echo ''bilinmeyen karakter'' ;;
+esac
+

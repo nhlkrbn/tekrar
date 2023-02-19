@@ -1,0 +1,11 @@
+#! /bin/bash
+
+yas=15
+
+if [ $yas -ge 18 ] && [ $yas -lt 50 ] #[[ $yas -ge 18 && $yas -lt 50 ]] #(( $yas -ge 18 -a $yas -lt 50 ))
+then
+echo ''giriş ücretlidir''
+else
+echo ''giriş ücretsizdir''
+fi
+

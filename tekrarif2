@@ -1,0 +1,11 @@
+#! /bin/bash
+
+ad=ayşe
+if [ $ad == ''nihal'' ]
+then
+echo ''isim nihaldir''
+
+else
+echo ''hatalı isim''
+fi
+

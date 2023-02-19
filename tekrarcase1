@@ -1,0 +1,22 @@
+#! /bin/bash
+
+read -p ''haftanınkaçıncıgünü'' gun
+case $gun in
+1)
+echo ''pazartesi'' ;;
+2)
+echo ''salı'' ;;
+3)
+echo ''çarşamba'' ;;
+4)
+echo ''perşembe'' ;;
+5)
+echo ''cuma'' ;;
+6)
+echo ''cumartesi'' ;;
+7)
+echo ''pazar'' ;;
+*)
+echo ''hatalı gün'' ;;
+esac
+

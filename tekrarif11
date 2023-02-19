@@ -1,0 +1,20 @@
+#! /bin/bash
+
+if [ $# -lt 1 ]
+then
+echo ''bir sayı giriniz''
+echo ''kullanım şekli=$0 dosyaismi''
+fi
+
+dosya=$1
+if [ -d ''$dosya'' ]
+then
+echo ''$dosya bir klasördür''
+else
+
+if (($# == 1))
+then
+echo ''$dosya şeklinde bir dosya yoktur.''
+fi
+fi
+

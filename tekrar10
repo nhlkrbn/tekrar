@@ -1,0 +1,16 @@
+#! /bin/bash
+
+echo ''$0 programını çalıştırdınız''
+echo ''ilk arguman=$1 ''
+echo ''ikinci arguman=$2 ''
+echo ''üçüncü arguman=$3 ''
+echo ''bütün argümanlar=$@''
+echo ''arguman sayısı=$#''
+
+shift
+echo ''$0 programını çalıştırdınız''
+echo ''ilk arguman=$1 ''
+echo ''ikinci arguman=$2 ''
+echo ''üçüncü arguman=$3 ''
+echo ''bütün argümanlar=$@''
+echo ''arguman sayısı=$#''
